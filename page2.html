@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<title>Control</title>
+		<script type="text/javascript">
+			function setLocal()
+			{
+				var clr = document.getElementById("txt");
+				var sz = document.getElementById("size");
+				
+					localStorage.c1=clr.value;
+					localStorage.s1=sz.value;
+				
+			}
+		</script>
+	</head>
+	<body>
+		<h2>Enter attributes</h2>
+		<form>
+			Font-color:<input type="text" id="txt" name="color"><br>
+			Font-size:<input type="text" id="size" name="number"><br>
+			<input type="submit" value="Submit" name="submit" onclick="setLocal()"><br>
+		</form>
+	</body>
+</html>

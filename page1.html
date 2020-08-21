@@ -1,0 +1,34 @@
+<html>
+	<head>
+		<title>Local Storage</title>
+		<style>
+			#heading
+			{
+				color:black
+			}
+			#article
+			{
+				size:10px;
+				}
+		</style>
+		<script type="text/javascript">
+			function setValues()
+			{
+				var h = document.getElementById("heading");
+				var a = document.getElementById("article");
+				
+						h.style.color = localStorage.c1;
+						a.style.color = localStorage.c1;
+					
+					
+						a.style.fontSize = localStorage.s1+"px";
+					
+			}
+			window.onstorage = setValues;
+		</script>
+	</head>
+	<body>
+		<h2 id="heading">Program to demonstrate HTML5 LocalStorage</h2>
+		<p id="article">Experimenting with local storage</p>
+	</body>
+</html>

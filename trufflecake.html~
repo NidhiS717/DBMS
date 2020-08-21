@@ -1,0 +1,69 @@
+<html>
+<body>
+<style>
+    h1{ text-align: center; font-size:40px; font-family:Palatino; }
+    body{background-color: lightyellow}
+    .ing{ float : left;
+        position: relative;
+        width:500 px;
+        margin: 20px;
+        font-family: Cursive;
+    }
+    p{font-family:Cursive}
+    .steps{ float: right;
+        position:relative;
+        width:500px;
+        margin:20px;
+        font-family: Cursive;
+    }
+
+</style>
+    <h1> Chocolate Truffle Cake RECIPE</h1>
+    <p>Share :<img src="social-icons.png" width="150" height="40"</img></p>
+    <img src="trufflecake.jpg" width="262" height="262"></img>
+    <hr>
+    <p>TOTAL TIME: Prep. Time: 35min + chilling Bake: 25 min. + cooling</p>
+    <p>Makes: 16 SERVINGS</p>
+    <hr>
+    <div class="ing">
+        <h3><b>INGREDIENTS<b></h3>
+        <hr>
+
+        <ul>
+                <li>2-1/2 cups 2% milk</li>
+                <li>1 cup butter, cubed</li>
+                <li>8 ounces semisweet chocolate, chopped</li>
+                <li>3 eggs</li>
+                <li>2 teaspoons vanilla extract</li>
+                <li>2-2/3 cups all-purpose flour</li>
+                <li>2 cups sugar</li>
+                <li>1 teaspoon baking soda</li>
+                <li>1/2 teaspoon salt</li>
+        </ul>
+                <p>FILLING:</p>
+        <ul>
+                <li>6 tablespoons butter, cubed</li>
+                <li>4 ounces bittersweet chocolate, chopped</li>
+                <li>2-1/2 cups confectioners' sugar</li>
+                <li>1/2 cup heavy whipping cream</li>
+        </ul>
+                <p>GANACHE:</p>
+        <ul>
+                <li>10 ounces semisweet chocolate, chopped</li>
+                <li>2/3 cup heavy whipping cream</li>
+        </ul>
+    </div>
+    <div class="steps">
+        <h3>DIRECTIONS</h3>
+        <hr>
+        <ul>
+            <li>In a large saucepan, cook the milk, butter and chocolate over low heat until melted. Remove from the heat; let stand for 10 minutes.</li>
+        <li>Preheat oven to 325°. In a large bowl, beat eggs and vanilla; stir in chocolate mixture until smooth. Combine the flour, sugar, baking soda and salt; gradually add to chocolate mixture and mix well (batter will be thin).</li>
+        <li>Transfer to three greased and floured 9-in. round baking pans. Bake 25-30 minutes or until a toothpick inserted in center comes out clean. Cool 10 minutes before removing from pans to wire racks to cool completely.</li>
+        <li>For filling, in a small saucepan, melt butter and chocolate. Stir in confectioners' sugar and cream until smooth.</li>
+        <li>For ganache, place chocolate in a small bowl. In a small saucepan, bring cream just to a boil. Pour over chocolate; whisk until smooth. Cool, stirring occasionally, until ganache reaches a spreading consistency.</li>
+        <li>Place one cake layer on a serving plate; spread with half of the filling. Repeat layers. Top with remaining cake layer. Spread ganache over top and sides of cake. Store in the refrigerator. Yield: 16 servings.</li>
+        </ul>
+        </div>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link href="menubar.css" rel="stylesheet">
+<link href="addrecipe.css" rel="stylesheet">
+        <title>Add Recipe</title>
+        <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" />
+        <!-- CSS styles for standard search box -->
+        <style type="text/css">
+            body{background-color: lightyellow; font-family: Lucida Bright; line-height: 1.3em; -webkit-font-smoothing: antialiased;}
+			</style>
+    </head>
+	<body style="background-color:#d0e1e1">
+
+	<header class="menu">
+    <a class="menu" href="#" id="logo"><p class="menu" style="font-size:30px; color:#74c1d2" >Recipe  Genie</p></a>
+        <nav class="menu">
+            <a class="menu" href="#" id="menu-icon"></a>
+            <ul class="menu" >
+                <li class="menu"><a class="menu" href="homepage.html" >Home</a></li>
+                <li class="menu"><a class="current" href="addrecipe.html">Make your own recipe!</a></li>
+                <li class="menu"><a  href="search4.html"class="menu">Search for recipes</a></li>
+				<li class="menu"><a class="menu" href="trending.html">Trending!</a></li>
+				<li class="menu"><a class="menu" href="history.html">History</a></li>
+                <li class="menu"><a class="menu" href="contactus.html">Contact us</a></li>
+                <li class="menu"><a class="menu" href="aboutus.html">About us</a></li>
+            </ul>
+        </nav>
+    </header>
+	
+	<br/><br/><br/><br/></br>
+<div class="container-fluid">
+
+				<form>
+            <div class="span6 offset1" style="float:left">
+			 <div style="display:inline-block"> Time:<br/>
+					<input type="text" name="time" style="width:20%"/><br></div>
+					<div style="display:inline-block"> No of servings:<br/>
+					<input type="text" name="no_of_servings" style="width:20%"/></div><br>
+					Cuisine:<br/>
+					<input type="text" name="cuisine" style="width:25%"/><br>
+					Complexity:<br/>
+					<br>
+					<input type="radio" name="complexity" value="easy" checked> Easy
+  <input type="radio" name="complexity" value="medium"> Medium
+  <input type="radio" name="complexity" value="hard"> Hard<br>
+            </div>
+        	<div class="span6 " style="float:left">	
+					Recipe name:<br/>
+					<input type="text" name="recipe_name" style="width:30%"/><br>
+					
+					
+					
+					Ingredients:<br/>
+					<textarea name="ingredients" rows="5" cols="20" style="width:80%" onfocus="if (this.value == 'put each ingredient in its own line') {this.value = '';}" onblur="if (this.value == '') {this.value = 'put each ingredient in its own line';}">put each ingredient in its own line</textarea>
+					<br/>
+					Steps:<br/>
+					<textarea name="steps" rows="5" cols="20" style="width:80%" onfocus="if (this.value == 'put each ingredient in its own line') {this.value = '';}" onblur="if (this.value == '') {this.value = 'put each ingredient in its own line';}" >put each step in its own line</textarea>
+					<br/>		
+					<br/>		
+				 <button class="btn btn-lg btn-info btn-block"  name="Submit" value="Submit_recipe" type="Submit"style="width:30%; height:30%" >Submit your recipe</button>  	
+              <br/>
+				
+			</div>
+			</form>
+ </div>
+
+ <script src="js/bootstrap.min.js"></script>
+	</body>
+</link>
+</link>
+	</html>
+		
